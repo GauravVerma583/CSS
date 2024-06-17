@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 180px;
+      }
+      .box {
+        height: 400px;
+        width: 600px;
+        background-color: blue;
+      }
+      .ball {
+        margin: 0px;
+        padding: 0px;
+
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        position: relative;
+        animation-name: ballMove;
+        animation-duration: 5s;
+        animation-iteration-count: 5;
+        animation-direction: normal;
+        background-image: url(https://media1.tenor.com/m/ID3jeIIKSakAAAAd/congratulations-congrats.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid black;
+      }
+      @keyframes ballMove {
+        0% {
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          left: 527px;
+          top: 0px;
+        }
+        50% {
+          left: 527px;
+          top: 327px;
+        }
+        75% {
+          left: 0px;
+          top: 327px;
+        }
+        100% {
+          left: 0px;
+          top: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <div class="ball"></div>
+      </div>
+    </div>
+  </body>
+</html>

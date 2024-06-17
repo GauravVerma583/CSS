@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 2px solid;
+        border-collapse: collapse;
+      }
+      table {
+        width: 100%;
+        height: 400px;
+      }
+      td {
+        text-align: center;
+        font-size: larger;
+      }
+      th {
+        font-weight: bolder;
+        font-size: xx-large;
+      }
+      th:hover {
+        color: blue;
+        background-color: brown;
+        cursor: crosshair;
+      }
+      h1::after {
+        content: "💕";
+        cursor: zoom-in;
+      }
+      p::first-line {
+        text-decoration: underline;
+        font-weight: 400;
+        font-style: italic;
+        font-variant: small-caps;
+        color: blueviolet;
+      }
+      tr:nth-child(even) {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Happy Valentine Day</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+      suscipit, ipsum officia animi voluptatibus esse quos, perspiciatis sit
+      illum culpa eaque voluptas earum maiores laudantium itaque velit.
+      Provident, debitis dolorem.
+    </p>
+    <table>
+      <tr>
+        <th>S.no.</th>
+        <th>Name</th>
+        <th>class</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Gaurav</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Gaurav</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Gaurav</td>
+        <td>12</td>
+      </tr>
+    </table>
+  </body>
+</html>
